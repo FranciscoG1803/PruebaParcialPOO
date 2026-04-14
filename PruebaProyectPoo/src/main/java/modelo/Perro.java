@@ -41,7 +41,7 @@ public class Perro extends Animal{
     @Override
     public boolean estaDisponible() {
         if(isDisponible()) {
-            System.out.println("Si se encuentra disponible");
+            System.out.println("Si se encuentra disponible la mascota");
             return true;
         }
 
